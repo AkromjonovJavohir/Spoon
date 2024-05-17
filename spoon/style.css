@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+a {
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.navbar__img {
+    background-image: url(./img/navbar__img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 582px;
+min-width: 1390px;
+    overflow: clip;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-between;
+
+}
+
+.navbar__content {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo {
+    margin-left: 135px;
+
+}
+
+.navbar__menu li {
+    width: 48px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar__menu {
+    display: flex;
+    margin-left: 420px;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar__btn {
+    width: 120px;
+    height: 46px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-family: Libre Franklin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding: 11px 17px;
+    background: none;
+    cursor: pointer;
+}
+.header{
+    margin-top: 125px;
+    margin-left: 357px;
+}
+.header__title{
+font-size: 70px;
+color: #fff;
+}
+.header__text{
+    width: 536px;
+height: 24px;
+color: rgb(255, 255, 255);
+font-family: IBM Plex Mono;
+font-size: 13px;
+font-weight: 700;
+line-height: 24px;
+margin-top: 0;
+text-align: center;
+margin-left: 82px;
+margin-top: 50px;
+}
+.header__btn{
+width: 160px;
+height: 60px;
+border-radius: 4px;
+background: rgb(90, 185, 99);
+padding: 15px 30px;
+color: rgb(255, 255, 255);
+font-family: Libre Franklin;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 40px;
+margin-left: 283px;
+border: none;
+cursor: pointer;
+}
+.cards{
+    width: 1170px;
+height: 528px;
+margin-left: 135px;
+margin-right:  135px;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.cards__info{
+    width: 507px;
+height: 144px;
+font-family: Libre Franklin;
+font-size: 24px;
+font-weight: 500;
+text-align: left;
+color: black;
+}
+.cards__info span{
+    color: #ccc;
+    font-weight: 100;
+}
+.cards__content{
+    width: 1190px;
+height: 330px;
+margin-top: 54px;
+display: flex;
+gap: 20px;
+}
+.card{
+    width: 377px;
+height: 320px;
+padding:51px 41px;
+box-shadow: 2px 2px 5px rgb(223, 223, 223) ;
+}
+.card__title{
+    color: rgb(0, 0, 0);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+.card__text{
+    color: rgb(153, 153, 153);
+font-family: IBM Plex Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 272px;
+height: 48px;
+margin-top: 13px;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+}
+.egg{
+    width: 1380px;
+
+margin-left: 30px;
+
+}
+.egg__content{
+    margin-top: 115px;
+    margin-left: 357px;
+  
+}
+.egg__text{
+    width: 685px;
+height: 144px;
+font-family: Libre Franklin;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+color: black;
+}
+.egg__text span{
+    font-weight: 100;
+    color: grey;
+}
+.egg__text2{
+    margin-left: 300px;
+    width: 91px;
+height: 18px;
+color: rgb(90, 185, 99);
+font-family: IBM Plex Mono;
+font-size: 11px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 115px;
+}
+.hr{
+    width: 1440px;
+    height: 1px;
+background: grey;
+color:grey ;
+
+
+}
+.body{
+    padding: 120px 135px;
+}
+.box{
+    width: 1170px;
+height: 330px;
+display: flex;
+}
+.box2{
+    width: 1170px;
+height: 330px;
+display: flex;
+flex-direction: row;
+margin-top: 90px;
+}
+.box2 img{
+margin-left: 100px;
+}
+.box__content{
+    margin-left: 100px;
+}
+.box__content p{
+    width: 362px;
+height: 144px;
+font-family: Libre Franklin;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+color: black;
+}
+.box__content span{
+    color: rgb(153, 153, 153);
+    font-weight: 100;
+    font-size: 27px;
+}
+.box__text{
+    width: 360px;
+height: 120px;
+color: rgb(153, 153, 153);
+font-family: IBM Plex Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+color: rgb(153, 153, 153);
+margin-top: 0px;
+}
+.boxes__end{
+margin-left: 400px;
+margin-top: 110px;
+}
+.boxes__end h4{
+    width: 344px;
+    height: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.boxes__end p{
+width: 203px;
+height: 18px;
+color: rgb(90, 185, 99);
+font-family: IBM Plex Mono;
+font-size: 11px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+text-align: center;
+margin-left: 60px;
+margin-top: 12px;
+}
+.party{
+    padding: 150px 135px;
+}
+.party__on{
+    color: rgb(90, 185, 99);
+width: 585px;
+height: 24px;
+
+}
+.party__content{
+    display: flex;
+align-items: center;
+margin-top: 15px;
+}
+.party__content p{
+    width: 483px;
+height: 72px;
+font-family: Libre Franklin;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+color: black;
+
+}
+.party__content span{
+    color: rgb(153, 153, 153);
+    font-weight: 100;
+
+}
+.footer{
+    width: 1440px;
+height: 399px;
+display: flex;
+background: rgb(10, 14, 26);
+}
+.footer__logo{
+padding: 120px 135px;
+}
+.footer__logo p{
+    width: 235px;
+height: 18px;
+color: rgb(102, 102, 102);
+font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer__info{
+    display: flex;
+margin-left: -50px;
+}
+.icon{
+    color: rgb(255, 255, 255);
+    padding-top: 145px;
+    padding-left: 65px;
+    gap: 20px;
+    display: flex;
+}
+.table{
+    color: rgb(255, 255, 255);
+
+font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+padding-top: 120px;
+padding-left: 150px;
+
+}
+.table p{
+    padding-top: 25px;
+}
+@media screen and (max-width: 1200px) {
+    .header__btn{
+     padding: 15px 40px;
+
+     
+        }
+}
+@media screen and (max-width: 992px) {
+    .party__content p{
+        font-size: 18px;
+        width: 653px;
+    }
+    .header__btn{
+     font-weight: 0;
+     font-size: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     line-height: 0;
+           }
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (max-width: 320px) {
+    
+}
